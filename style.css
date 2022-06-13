@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 90vh;
+  overflow: hidden;
+
+  background: url(./assets/patrick-mcmanaman-LN_g3qA8ohg-unsplash.jpg);
+  background-position: left 55% top 65%;
+
+  font-size: 1.6rem;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.content {
+  width: 60rem;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3.2rem;
+
+  padding-top: 10rem;
+}
+
+.content img {
+  width: 25rem;
+  height: 25rem;
+}
+
+.content img:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+
+.content h1 {
+  font-size: 5rem;
+  opacity: 0.9;
+}
+
+.content h1 span {
+  color: yellow;
+}
+
+.content p {
+  font-size: 2.2rem;
+  text-align: center;
+  color: rgb(175, 174, 174);
+  opacity: 0.7;
+}
+
+.content input {
+  width: 50rem;
+  height: 7rem;
+  padding: 2rem;
+  font-size: 2rem;
+  border: 1px solid blue;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.content input:hover {
+  outline: 1.5px solid red;
+  transition-duration: 1s;
+}
+
+.content button {
+  width: 50rem;
+  height: 7rem;
+
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  color: white;
+  filter: brightness(0.5);
+  background-color: rgba(226, 3, 226, 0.575);
+}
+
+.content button:hover {
+  filter: brightness(1);
+  transition-duration: 0.8s;
+  cursor: pointer;
+}
+
+#resposta {
+  margin-top: 3rem;
+
+  transition: opacity 1s;
+}
+
+#resposta div {
+  font-size: 1.6rem;
+  font-weight: 400;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+}
